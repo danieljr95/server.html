@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    color: crimson;
+    font-family: 'Courier New', sans-serif;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.card1 {
+    background-color:yellow;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card2 {
+    background-color: blue;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card3 {
+    background-color: red;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
